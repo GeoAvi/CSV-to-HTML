@@ -5,7 +5,7 @@ const mongoose = require('mongoose');
 
 // mongoose.connect('mongodb://127.0.0.1:27017/csvUploads');
 const DB =
-  'mongodb+srv://himadrinayak:12345@cluster0.h7n86ah.mongodb.net/csv-upload?retryWrites=true&w=majority';
+  'mongodb+srv://todoapp:todo-app@cluster0.hqe00m8.mongodb.net/TrainingPlacement?retryWrites=true&w=majority';
 
 mongoose
   .connect(DB)
